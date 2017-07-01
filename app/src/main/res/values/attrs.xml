@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumberFieldEdit">
+        <attr name="Title" format="string" />
+        <attr name="Unit" format="string" />
+        <attr name="Format" format="string" />
+        <attr name="Separator" format="string" />
+        <attr name="Min" format="float" />
+        <attr name="Max" format="float" />
+        <attr name="Inc" format="float" />
+        <attr name="FastInc" format="float" />
+        <attr name="android:textSize" />
+        <attr name="buttonWidth" format="reference|dimension" />
+        <attr name="buttonHeight" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="SeekBarWithText">
+        <attr name="mtitle" format="string" />
+        <attr name="munit" format="string" />
+        <attr name="mformatString" format="string" />
+        <attr name="mmin" format="float" />
+        <attr name="minc" format="float" />
+        <attr name="mmax" format="float" />
+    </declare-styleable>
+    <declare-styleable name="FillBar">
+        <attr name="percentage" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RadioButtonCenter">
+        <attr name="android:button" />
+    </declare-styleable>
+
+    <!-- Properties for com.csk.hbsdrone.widgets.spinners.SpinnerSelfSelect widget -->
+    <declare-styleable name="SpinnerSelfSelect">
+        <attr name="isSelectable" format="reference|boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AutoScalingLayout">
+        <attr name="designWidth" format="dimension" />
+        <attr name="designHeight" format="dimension" />
+        <attr name="autoScaleEnable" format="boolean" />
+        <attr name="autoScaleType" format="string" />
+    </declare-styleable>
+
+
+    <!-- 用作适配 -->
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string" />
+        <attr name="layout_heightPercent" format="string" />
+        <attr name="layout_marginPercent" format="string" />
+        <attr name="layout_marginLeftPercent" format="string" />
+        <attr name="layout_marginTopPercent" format="string" />
+        <attr name="layout_marginRightPercent" format="string" />
+        <attr name="layout_marginBottomPercent" format="string" />
+        <attr name="layout_marginStartPercent" format="string" />
+        <attr name="layout_marginEndPercent" format="string" />
+    </declare-styleable>
+
+    <!-- 圆角头像 -->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+</resources>

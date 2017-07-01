@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_marginBottom="@dimen/space_60"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/send_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_20"
+                    android:src="@drawable/send" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/send_one_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/space_15" />
+
+                    <TextView
+                        android:id="@+id/send_two_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择寄件地址"
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+                    <TextView
+                        android:id="@+id/send_three_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:src="@drawable/right_3" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:id="@+id/collect_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_20"
+                    android:src="@drawable/recevie" />
+
+
+                <LinearLayout
+                    android:id="@+id/recevie_ly"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/recevie_one_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/space_15" />
+
+                    <TextView
+                        android:id="@+id/recevie_two_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择收件地址"
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+                    <TextView
+                        android:id="@+id/recevie_three_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:src="@drawable/right_3" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+
+            <TextView
+                android:background="@color/beijing"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:text="物品信息"
+                android:textSize="@dimen/fontsize_14sp"
+                android:textColor="@color/huise"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <com.quark.wanlihuanyunuser.ui.widget.ListViewForScrollView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.quark.wanlihuanyunuser.ui.widget.ListViewForScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:background="@color/qianhuise" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_10"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付金额："
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="@color/red"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="含消费税"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/selected_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/agree_o"
+                android:drawablePadding="@dimen/space_8"
+                android:text="我同意"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/terms_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《快递条款》"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/fontsize_14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sumbit_tv"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/mywhite"
+        android:textSize="@dimen/fontsize_14sp" />
+
+
+</RelativeLayout>

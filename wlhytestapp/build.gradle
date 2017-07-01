@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+      compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.quark.wanlihuanyunuser"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 3
+        versionName "1.0.2"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    //===仅仅为了加快编译速度 gen jpush 冲突====
+    /*tasks.whenTaskAdded { task ->
+        if (task.name.contains("lint")
+                || task.name.equals("clean")
+                //如果项目中有用到aidl则不可以舍弃这个任务
+                || task.name.contains("Aidl")
+//用不到测试的时候就可以先关闭
+                || task.name.contains("mockableAndroidJar")
+                || task.name.contains("UnitTest")
+                || task.name.contains("AndroidTest")
+//用不到NDK和JNI的也关闭掉
+                || task.name.contains("Ndk")
+                || task.name.contains("Jni")
+        ) {
+            task.enabled = false
+        }
+    }*/
+    //=====仅仅为了加快编译速度 end====
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    maven {
+        url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/fastjson-1.1.48.android.jar')
+    compile files('libs/jfinal-1.9-bin.jar')
+    compile files('libs/xstream-1.4.7.jar')
+    compile files('libs/universal-image-loader-1.9.1.jar')
+    compile files('libs/sun.misc.BASE64Decoder.jar')
+
+}

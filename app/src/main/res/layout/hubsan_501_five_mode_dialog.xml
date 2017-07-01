@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hubsanModeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/transparent_60"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/hubsan_501_all_mode_dialog_weight"
+        android:layout_height="@dimen/hubsan_501_all_mode_dialog_height"
+        android:background="@drawable/hubsan_501_all_mode_dialog_bg"
+        android:orientation="horizontal"
+        android:padding="1dp">
+        <!-- 遥感模式 -->
+        <LinearLayout
+            android:id="@+id/hubsanMenuRockerBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_home_setting_btn_bg"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <ImageView
+                android:id="@+id/hubsanMenuRockerBtnImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hubsan_left_rocker_normal" />
+
+            <TextView
+                android:id="@+id/hubsanMenuRockerBtnText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center|top"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_eleven" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/hubsan_501_check_gps_v_line" />
+        <!-- 航点模式 -->
+        <LinearLayout
+            android:id="@+id/hubsanMenuWaypointBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_home_setting_btn_bg"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <ImageView
+                android:id="@+id/hubsanMenuWaypointBtnImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hubsan_left_waypoint_mode_bg" />
+
+            <TextView
+                android:id="@+id/hubsanMenuWaypointBtnText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:gravity="center|top"
+                android:singleLine="true"
+                android:text="@string/hubsan_603_waypoint_mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_eleven" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/hubsan_501_check_gps_v_line" />
+        <!-- 跟飞模式 -->
+        <LinearLayout
+            android:id="@+id/hubsanMenuFollowBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_home_setting_btn_bg"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <ImageView
+                android:id="@+id/hubsanMenuFollowBtnImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hubsan_501_left_follow_mode_bg" />
+
+            <TextView
+                android:id="@+id/hubsanMenuFollowBtnText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:gravity="center|top"
+                android:singleLine="true"
+                android:text="@string/hubsan_603_follow_mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_eleven" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/hubsan_501_check_gps_v_line" />
+        <!-- 环绕模式 -->
+        <LinearLayout
+            android:id="@+id/hubsanMenuSurroundBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_home_setting_btn_bg"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <ImageView
+                android:id="@+id/hubsanMenuSurroundBtnImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hubsan_501_surround_fly_btn_bg" />
+
+            <TextView
+                android:id="@+id/hubsanMenuSurroundBtnText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:gravity="center|top"
+                android:singleLine="true"
+                android:text="@string/hubsan_603_surround_fly_mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_eleven" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/hubsan_501_check_gps_v_line"
+            android:visibility="gone" />
+
+        <!-- VR模式 -->
+        <LinearLayout
+            android:id="@+id/hubsanMenuVRBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_home_setting_btn_bg"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <ImageView
+                android:id="@+id/hubsanMenuVRBtnImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hubsan_501_vr_btn_bg" />
+
+            <TextView
+                android:id="@+id/hubsanMenuVRBtnText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:gravity="center|top"
+                android:singleLine="true"
+                android:text="@string/hubsan_603_vr_mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_eleven" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

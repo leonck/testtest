@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ads_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outside" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginTop="@dimen/space_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="苏有朋 123456789"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_15sp" />
+
+        <TextView
+            android:id="@+id/ads_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广东省 深圳市 宝安区"
+            android:textColor="@color/qianhuise"
+            android:textSize="@dimen/fontsize_15sp" />
+
+
+        <TextView
+            android:id="@+id/dtl_ads_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="宝安中心"
+            android:textColor="@color/qianhuise"
+            android:textSize="@dimen/fontsize_15sp" />
+
+        <RelativeLayout
+            android:layout_marginBottom="@dimen/space_15"
+            android:layout_marginRight="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/set_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/uncheck_address"
+                android:drawablePadding="@dimen/space_8"
+                android:text="设为默认地址"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/remove_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/remove_address"
+                android:drawablePadding="@dimen/space_8"
+                android:text="删除地址"
+                android:textColor="@color/red"
+                android:textSize="@dimen/fontsize_14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

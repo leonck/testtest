@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">有快递</string>
+    <string name="tip_double_click_exit">再次点击退出</string>
+
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">加载中…</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+    <string name="load_more">更多</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+    <string name="new_data_toast_message">有 %d 条更新</string>
+    <string name="new_data_toast_none">没有新更新</string>
+
+    <string name="str_request_camera_message">请求获取相机权限</string>
+    <!--   <string name="pub_tweet_required_camera_tip">在设置-应用-星影星图权限中允许拍摄照片，以正常使用发动弹功能</string>
+    <string name="pub_tweet_required_album_tip">在设置-应用-星影星图权限中允许访问你设备上的照片，以正常使用发动弹功能</string>-->
+
+    <string name="permissions_camera_error">相机无法完成初始化,请正确授权。</string>
+
+    <string name="str_request_map_message">请求获取运行地图的权限</string>
+    <string name="permissions_map_error">无法获得运行权限,请正确授权。</string>
+    <string name="permissions_request">申请运行所需权限</string>
+
+    <string name="register_name_digits">
+        ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ!@#$%^*
+    </string>
+
+    <string name="pj_16">完成</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+
+    <string name="nodataStr">暂无数据</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

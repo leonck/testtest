@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Swifts</string>
+    <string name="hubsan_501_setting_other_equipment_certification_title">设备绑定</string>
+    <string name="hubsan_501_setting_other_equipment_certification_context">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您必须将飞机与当前手机进行绑定，这样飞机在断电之前将无法再与其他手机建立连接。</string>
+    <string name="title_alert">提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="hubsan_501_setting_other_equipment_certification_cancel">解除绑定</string>
+    <string name="hubsan_501_setting_other_equipment_certification_clean_all_list">清空所有记录</string>
+    <string name="hubsan_501_setting_other_equipment_certification_cancel_context">飞机已经和当前设备建立绑定，是否解除绑定？</string>
+    <string name="hubsan_501_setting_other_equipment_certification_ing">正在绑定，请稍后......</string>
+    <string name="hubsan_501_setting_other_equipment_certification_make_ing">操作中......</string>
+    <string name="hubsan_501_setting_other_equipment_certification_make_failed">操作失败</string>
+    <string name="hubsan_501_setting_other_equipment_certification_make_success">操作成功</string>
+    <string name="hubsan_501_setting_other_equipment_certification_failed">绑定失败</string>
+    <string name="hubsan_501_setting_other_equipment_certification_success">绑定成功</string>
+    <string name="hubsan_calibration_name">地磁校准</string>
+    <string name="hubsan_calibration_name_dis">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请按照动画所示方式旋转无人机来校准地磁。</string>
+    <string name="hubsan_501_surround_dialog_title">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;无人机即将进入环绕飞行模式，飞行轨道最好距离地面3米以上，轨道半径R应该大于5米，请确保飞行轨道上没有可能引起危险的障碍物。</string>
+    <string name="hubsan_501_surround_mode_less_than_three_m">您和无人机距离太小，请使距离大于3米再试。</string>
+    <string name="hubsan_501_follow_me_dialog_title">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;即将进入跟随模式，请将飞行器起飞到3m高度并与人保持5米以上的距离，请勿在狭窄空间，人群或建筑物旁起飞使用该功能。</string>
+    <string name="hubsan_user_permission_location_notify">使用警告</string>
+    <string name="settings">设置</string>
+    <string name="hubsan_user_permission_location_skip_failed">跳转失败</string>
+
+    <string name="hubsan_share_title_select_all">选择</string>
+    <string name="hubsan_share_title_select_no_all">取消</string>
+    <string name="hubsan_603_main_bottom_photo">相册</string>
+    <string name="hubsan_603_manual_mode">手动模式</string>
+    <string name="hubsan_603_altitude_hold_mode">定高模式</string>
+    <string name="hubsan_603_gps_hold_mode">GPS 模式</string>
+    <string name="hubsan_603_follow_mode">跟随模式</string>
+    <string name="hubsan_603_waypoint_mode">航点模式</string>
+    <string name="hubsan_603_return_home_mode">返航</string>
+    <string name="hubsan_603_free_head_mode">无头模式</string>
+    <string name="hubsan_603_free_have_head_mode">有头模式</string>
+    <string name="hubsan_603_surround_fly_mode">环绕模式</string>
+    <string name="hubsan_603_vr_mode">VR模式</string>
+
+    <string name="hubsan_501_waypoint_drone">开启</string>
+    <string name="hubsan_501_waypoint_stop">停止</string>
+    <string name="hubsan_501_waypoint_title">航点</string>
+    <string name="hubsan_501_waypoint_draw">绘制</string>
+    <string name="hubsan_501_waypoint_delete">删除</string>
+    <string name="hubsan_501_waypoint_poi">兴趣点</string>
+    <string name="hubsan_501_waypoint_submit">提交</string>
+    <string name="hubsan_501_waypoint_out_of_radius_title">航点半径超过限制</string>
+    <string name="hubsan_501_waypoint_out_of_radius_retain">保留并提交</string>
+    <string name="hubsan_501_waypoint_out_of_radius_context">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;部分航点的半径超出限制，是否删除半径超出限制的航点？</string>
+    <string name="hubsan_mission_dialog_delete_submit">删除并提交</string>
+    <string name="dialog_calibrate_map_message">确定要校准地图吗?</string>
+    <string name="lat_long_mag_title">地图坐标校准</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>

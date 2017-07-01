@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/main_header" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/send_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_20"
+                    android:src="@drawable/send" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/send_one_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/space_15" />
+
+                    <TextView
+                        android:id="@+id/send_two_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择寄件地址"
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+                    <TextView
+                        android:id="@+id/send_three_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:src="@drawable/right_3" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_20"
+                    android:src="@drawable/recevie" />
+
+
+                <LinearLayout
+                    android:id="@+id/recevie_ly"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/recevie_one_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/space_15" />
+
+                    <TextView
+                        android:id="@+id/recevie_two_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择发件地址"
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+                    <TextView
+                        android:id="@+id/recevie_three_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/huise"
+                        android:textSize="@dimen/space_14" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:src="@drawable/right_3" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/beijing"
+                android:gravity="center"
+                android:text="国际物流我们需要您提供收件人的身份信息"
+                android:textSize="@dimen/fontsize_14sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/id_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="请输入身份证号码"
+                    android:singleLine="true"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <RelativeLayout
+                    android:id="@+id/id_list"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/clock_1" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/id_positive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/id_zheng"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/camera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_10"
+                        android:text="身份证正面"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id_negative"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/id_fan"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/camera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_10"
+                        android:text="身份证反面"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_12sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:text="开始："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_16sp" />
+
+                <EditText
+                    android:id="@+id/start_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:hint="请选择开始时间"
+                    android:singleLine="true"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="结束："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_16sp" />
+
+                <EditText
+                    android:id="@+id/end_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:hint="请选择结束时间"
+                    android:singleLine="true"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/beijing"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:text="物流公司"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <LinearLayout
+                android:id="@+id/select_company"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="请选择物流公司"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <TextView
+                    android:id="@+id/company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginRight="@dimen/space_5"
+                    android:textColor="@color/huise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right_3" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20">
+
+                <EditText
+                    android:id="@+id/logistics_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请填写物流单号（如果有）"
+                    android:singleLine="true"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <ImageView
+                    android:id="@+id/scan_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qr_scan_2" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/beijing"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:text="备注"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <EditText
+                android:id="@+id/note_tv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="如果没有人或者留门口或者留张卡片"
+                android:paddingLeft="@dimen/space_20"
+                android:singleLine="true"
+                android:textColorHint="@color/qianhuise"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/beijing"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:text="物品信息"
+                android:textSize="@dimen/fontsize_14sp" />
+
+
+            <LinearLayout
+                android:id="@+id/items_ly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="物品名称"
+                    android:textColor="@color/huise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add_2" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <com.quark.wanlihuanyunuser.ui.widget.ListViewForScrollView
+                android:id="@+id/goods_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.quark.wanlihuanyunuser.ui.widget.ListViewForScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="申报重量-KG"
+                    android:textColor="@color/huise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/kg_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="请输入"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="物品货值-元"
+                    android:textColor="@color/huise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/value_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="请输入"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/qianhuise" />
+
+            <Button
+                android:id="@+id/ok_bt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="@dimen/space_35"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="@dimen/space_30"
+                android:background="@drawable/button_login"
+                android:text="确认包裹信息"
+                android:textColor="@color/mywhite"
+                android:textSize="@dimen/fontsize_16sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

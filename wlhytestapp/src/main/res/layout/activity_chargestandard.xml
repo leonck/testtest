@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_header" />
+
+    <TextView
+        android:paddingTop="@dimen/space_10"
+        android:background="@color/qianhuise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="不同公司有不同的收费标准"
+        android:textColor="@color/huise"
+        android:textSize="@dimen/fontsize_14sp" />
+
+    <TextView
+        android:paddingBottom="@dimen/space_15"
+        android:background="@color/qianhuise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请选择公司查询"
+        android:textColor="@color/huise"
+        android:textSize="@dimen/fontsize_16sp" />
+
+    <me.maxwin.view.XListView
+        android:id="@+id/xlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></me.maxwin.view.XListView>
+
+</LinearLayout>

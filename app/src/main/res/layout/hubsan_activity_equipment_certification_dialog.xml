@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hubsanCheckGpsLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/calibartionCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/hubsan_501_check_gps_title_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:text="@string/hubsan_501_setting_other_equipment_certification_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_thirteen"  />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"
+        android:background="@drawable/hubsan_501_check_gps_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hubsanECContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/hubsan_501_setting_other_equipment_certification_context"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_twelve" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/hubsanEClostLine"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"
+        android:background="@drawable/hubsan_501_check_gps_line" />
+
+    <!-- 确定和取消 -->
+    <LinearLayout
+        android:id="@+id/hubsanECOneLay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/hubsanECCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/hubsan_501_common_btn_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_thirteen"  />
+
+        <View
+            android:id="@+id/hubsanECBottomMiddleLine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:background="@drawable/hubsan_501_check_gps_v_line" />
+
+        <Button
+            android:id="@+id/hubsanECOk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/hubsan_501_common_btn_bg"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_thirteen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hubsanECTwoLay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/hubsanECOtherOk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/hubsan_501_common_btn_bg"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/hubsan_unlock_center_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hubsanECThreeLay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- 解除绑定,清空所有 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hubsanCancelEC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:singleLine="true"
+                android:background="@drawable/hubsan_501_common_btn_bg"
+                android:text="@string/hubsan_501_setting_other_equipment_certification_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/hubsan_unlock_center_text_size" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:background="@drawable/hubsan_501_check_gps_v_line" />
+
+            <Button
+                android:id="@+id/hubsanECCleanAllList"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/hubsan_501_common_btn_bg"
+                android:text="@string/hubsan_501_setting_other_equipment_certification_clean_all_list"
+                android:textColor="@color/white"
+                android:textSize="@dimen/hubsan_unlock_center_text_size" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/hubsanEClostLineTWo"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/hubsan_501_check_gps_line" />
+
+        <Button
+            android:id="@+id/hubsanECCleanAllCancel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/hubsan_501_common_btn_bg"
+            android:text="@string/cancel"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/hubsan_unlock_center_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

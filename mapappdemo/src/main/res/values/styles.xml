@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Activity主题 -->
+    <style name="activityTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 没有标题栏，跳转无黑色背景 -->
+    <style name="noTitleTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/CustomActionBarTheme.ActionBar</item>
+        <item name="android:actionMenuTextAppearance">@style/CustomActionBarTheme.ActionBar.Text
+        </item>
+        <item name="android:actionMenuTextColor">@color/whiteText</item>
+        <item name="android:actionBarTabTextStyle">@style/CustomActionBarTheme.ActionBar.Text</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DropDownItem</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="CustomActionBarTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/CustomActionBarTheme.ActionBar.TitleTextStyle
+        </item>
+        <item name="android:subtitleTextStyle">@style/CustomActionBarTheme.ActionBar.Text</item>
+        <item name="android:title">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!-- Actionbar text -->
+    <style name="CustomActionBarTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <!-- style the list navigation -->
+    <style name="DropDownItem" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+        <item name="android:textSize">18dp</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:layout_width">100dp</item>
+    </style>
+    <style name="SpinnerItem" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textSize">26dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- Popup Menu Style i.e. the backgroud style of menuitem -->
+    <style name="MyPopupMenu" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">#000000</item>
+    </style>
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.TextView.PopupMenu">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <!-- App title style -->
+    <style name="CustomActionBarTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+</resources>

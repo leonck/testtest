@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/sex_man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionsheet_top_selector"
+        android:gravity="center"
+        android:text="分享"
+        android:textColor="@color/menu_lan"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sex_lady"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionsheet_bottom_selector"
+        android:gravity="center"
+        android:text="下载"
+        android:textColor="@color/color_lv"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/actionsheet_single_selector"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="16sp" />
+
+</LinearLayout>

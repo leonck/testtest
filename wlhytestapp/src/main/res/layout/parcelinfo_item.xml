@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_20"
+        android:background="@color/beijing"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_10">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="万里环运 123456789"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/logistics_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:text="物流状态：已出单"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/items_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:singleLine="true"
+                android:text="物品名称：牛奶一个 鸡蛋一个 熟肉一斤"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <TextView
+                android:id="@+id/items_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:text="物品名称：15kg"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/details_tv"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/space_25"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/space_20"
+            android:background="@drawable/button_login"
+            android:gravity="center"
+            android:text="物流详情"
+            android:textColor="@color/mywhite"
+            android:textSize="@dimen/fontsize_14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

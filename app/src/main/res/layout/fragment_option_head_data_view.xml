@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headDataView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|top"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <!-- 姿态信息-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9" />
+
+            <com.hubsan.swifts.widgets.StrokeText
+                android:id="@+id/hubsanPitch"
+                style="@style/rc_textTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:minWidth="100px"
+                android:paddingTop="2dp"
+                android:text="Pitch:0°"
+                android:textSize="@dimen/hubsan_text_ten"
+                android:textColor="@color/black" />
+
+            <com.hubsan.swifts.widgets.StrokeText
+                android:id="@+id/hubsanRoll"
+                style="@style/rc_textTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:minWidth="100px"
+                android:paddingTop="2dp"
+                android:textSize="@dimen/hubsan_text_ten"
+                android:text="Roll:0°"
+                android:textColor="@color/black" />
+
+            <com.hubsan.swifts.widgets.StrokeText
+                android:id="@+id/hubsanYaw"
+                style="@style/rc_textTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:minWidth="100px"
+                android:textSize="@dimen/hubsan_text_ten"
+                android:paddingTop="2dp"
+                android:text="Yaw:0°"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        <!-- 显示经纬度-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+            <!--飞机经纬度-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hubsan_603_main_top_air_lat_lon" />
+
+                <com.hubsan.swifts.widgets.StrokeText
+                    android:id="@+id/hubsanTopAirLatLon"
+                    style="@style/rc_textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minWidth="100px"
+                    android:paddingTop="5dp"
+                    android:text="N00.0000000,E000.0000000"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/hubsan_gps_title_text_size"
+                    />
+            </LinearLayout>
+
+            <!--摇杆的经纬度-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/hubsan_603_main_top_rocker_lat_lon" />
+
+                <com.hubsan.swifts.widgets.StrokeText
+                    android:id="@+id/hubsanTopRockerLatLon"
+                    style="@style/rc_textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minWidth="100px"
+                    android:paddingTop="5dp"
+                    android:text="(N00.0000000,E000.0000000)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/hubsan_gps_title_text_size"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+

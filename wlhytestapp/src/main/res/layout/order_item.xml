@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_marginTop="@dimen/space_12"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/order_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_12"
+            android:background="@drawable/button_red"
+            android:paddingBottom="@dimen/space_5"
+            android:paddingLeft="@dimen/space_15"
+            android:paddingRight="@dimen/space_15"
+            android:paddingTop="@dimen/space_5"
+            android:text="商家代发"
+            android:textColor="@color/mywhite"
+            android:textSize="@dimen/fontsize_14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/order_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号：12345679"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/one_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_marginTop="@dimen/space_8"
+        android:text="订单状态： "
+        android:textColor="@color/qianhuise"
+        android:textSize="@dimen/fontsize_14sp" />
+
+      <TextView
+          android:id="@+id/two_tv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/space_30"
+          android:layout_marginTop="@dimen/space_8"
+          android:text=""
+          android:textColor="@color/qianhuise"
+          android:textSize="@dimen/fontsize_14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/space_12"
+        android:background="@color/beijing"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/number_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_30"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/huise"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <TextView
+            android:id="@+id/cancel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:background="@drawable/button_red"
+            android:paddingBottom="@dimen/space_5"
+            android:paddingLeft="@dimen/space_15"
+            android:paddingRight="@dimen/space_15"
+            android:paddingTop="@dimen/space_5"
+            android:text="取消订单"
+            android:textColor="@color/mywhite"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <TextView
+            android:id="@+id/pay_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:background="@drawable/button_login"
+            android:paddingBottom="@dimen/space_5"
+            android:paddingLeft="@dimen/space_15"
+            android:paddingRight="@dimen/space_15"
+            android:paddingTop="@dimen/space_5"
+            android:text="现在支付"
+            android:textColor="@color/mywhite"
+            android:textSize="@dimen/fontsize_14sp" />
+
+
+        <TextView
+            android:id="@+id/shop_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_15"
+            android:layout_marginRight="@dimen/space_20"
+            android:text="等待商家确认"
+            android:textColor="@color/huise"
+            android:textSize="@dimen/fontsize_14sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

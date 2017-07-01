@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_header" />
+
+    <EditText
+        android:id="@+id/content_et"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:gravity="left"
+        android:textSize="@dimen/fontsize_14sp"
+        android:hint="你有更好的建议，告诉我们吧"
+        android:padding="@dimen/space_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/qianhuise" />
+
+
+    <Button
+        android:id="@+id/sumbit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="@dimen/fontsize_14sp"
+        android:text="提交"
+        android:textColor="@color/mywhite"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_marginRight="@dimen/space_30"
+        android:layout_marginTop="@dimen/space_100"
+        android:background="@drawable/button_login" />
+
+
+</LinearLayout>

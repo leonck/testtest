@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mywhite"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/banner_s">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/avatar_s"
+                        app:civ_border_color="#ffffff"
+                        app:civ_border_width="0dp" />
+
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_10"
+                        android:text="mingzi"
+                        android:textColor="@color/mywhite"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/one_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sIsSingLines="true"
+                stv:sLeftTextString="我的快递"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/concern_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sIsSingLines="true"
+                stv:sLeftTextString="关注的快递"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/two_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="代发快递"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/three_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="我的订单"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/four_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="我的地址"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/five_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sIsSingLines="true"
+                stv:sLeftTextString="我的消息"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/six_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="我的电子卡"
+                stv:sRightTextString="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_20"
+                android:background="@color/beijing" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/seven_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="修改密码"
+                stv:sRightTextString="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_20"
+                android:background="@color/beijing" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/eight_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="关于我们"
+                stv:sRightTextString="" />
+
+            <com.allen.supertextviewlibrary.SuperTextView
+                android:id="@+id/nine_stv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/common_tab_bg"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="检查更新"
+                stv:sRightTextString="" />
+
+
+            <Button
+                android:id="@+id/out_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/space_35"
+                android:layout_marginTop="@dimen/space_25"
+                android:background="@drawable/out" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

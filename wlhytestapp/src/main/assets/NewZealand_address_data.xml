@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <province name="Auckland">
+        <city name="Auckland isthmus">
+            <district name="Arch Hill" zipcode="110000" />
+            <district name="Avondale" zipcode="110000" />
+            <district name="Blockhouse Bay" zipcode="110000" />
+            <district name="Balmoral" zipcode="110000" />
+            <district name="Eden Terrace" zipcode="110000" />
+            <district name="Eden_Valley" zipcode="110000" />
+            <district name="Ellerslie" zipcode="110000" />
+            <district name="Epsom" zipcode="110000" />
+            <district name="Freemans Bay" zipcode="110000" />
+            <district name="Glendowie" zipcode="110000" />
+            <district name="Glen_Innes" zipcode="110000" />
+            <district name="Grafton" zipcode="110000" />
+            <district name="Greenlane" zipcode="110000" />
+            <district name="Greenwoods_Corner" zipcode="110000" />
+            <district name="Grey_Lynn" zipcode="110000" />
+            <district name="Herne Bay" zipcode="110000" />
+            <district name="Hillsborough" zipcode="110000" />
+            <district name="Kingsland" zipcode="110000" />
+            <district name="Kohimarama" zipcode="110000" />
+            <district name="Lynfield" zipcode="110000" />
+            <district name="Meadowbank" zipcode="110000" />
+            <district name="Mission Bay" zipcode="110000" />
+            <district name="Morningside" zipcode="110000" />
+            <district name="Mount Albert" zipcode="110000" />
+            <district name="Mount Eden" zipcode="110000" />
+            <district name="Mount_Roskill" zipcode="110000" />
+            <district name="Mount_Wellington" zipcode="110000" />
+            <district name="Newmarket" zipcode="110000" />
+            <district name="Newton" zipcode="110000" />
+            <district name="New Windsor" zipcode="110000" />
+            <district name="Onehunga" zipcode="110000" />
+            <district name="One Tree Hill" zipcode="110000" />
+            <district name="Orakei" zipcode="110000" />
+            <district name="Oranga" zipcode="110000" />
+            <district name="Otahuhu" zipcode="110000" />
+            <district name="Owairaka" zipcode="110000" />
+            <district name="Panmure" zipcode="110000" />
+            <district name="Parnell" zipcode="110000" />
+            <district name="Penrose" zipcode="110000" />
+            <district name="Point_England" zipcode="110000" />
+            <district name="Point_Chevalier" zipcode="110000" />
+            <district name="Ponsonby" zipcode="110000" />
+            <district name="Remuera" zipcode="110000" />
+            <district name="Royal_Oak" zipcode="110000" />
+            <district name="Saint Heliers" zipcode="110000" />
+            <district name="Saint Johns" zipcode="110000" />
+            <district name="Saint Marys Bay" zipcode="110000" />
+            <district name="Sandringham" zipcode="110000" />
+            <district name="Stonefields" zipcode="110000" />
+            <district name="Tamaki" zipcode="110000" />
+            <district name="Te Papapa" zipcode="110000" />
+            <district name="Three Kings" zipcode="110000" />
+            <district name="Waikowhai" zipcode="110000" />
+            <district name="Waterview" zipcode="110000" />
+            <district name="Western Springs" zipcode="110000" />
+            <district name="Westfield" zipcode="110000" />
+            <district name="Westmere" zipcode="110000" />
+        </city>
+        <city name="North Shore">
+            <district name="Albany" zipcode="110000" />
+            <district name="Bayswater" zipcode="110000" />
+            <district name="Bayview" zipcode="110000" />
+            <district name="Beach Haven" zipcode="110000" />
+            <district name="Belmont" zipcode="110000" />
+            <district name="Birkdale" zipcode="110000" />
+            <district name="Birkenhead" zipcode="110000" />
+            <district name="Browns Bay" zipcode="110000" />
+            <district name="Campbells Bay" zipcode="110000" />
+            <district name="Castor Bay" zipcode="110000" />
+            <district name="Chatswood" zipcode="110000" />
+            <district name="Cheltenham" zipcode="110000" />
+            <district name="Coatesville" zipcode="110000" />
+            <district name="Crown Hill" zipcode="110000" />
+            <district name="Cuthill" zipcode="110000" />
+            <district name="Devonport" zipcode="110000" />
+            <district name="Fairview" zipcode="110000" />
+            <district name="Forrest Hill" zipcode="110000" />
+            <district name="Glenfield" zipcode="110000" />
+            <district name="Glenfield" zipcode="110000" />
+            <district name="Greenhithe" zipcode="110000" />
+            <district name="Highbury" zipcode="110000" />
+            <district name="Hillcrest" zipcode="110000" />
+            <district name="Long Bay" zipcode="110000" />
+            <district name="Mairangi Bay" zipcode="110000" />
+            <district name="Marlborough" zipcode="110000" />
+            <district name="Meadowood" zipcode="110000" />
+            <district name="Milford" zipcode="110000" />
+            <district name="Murrays Bay" zipcode="110000" />
+            <district name="Northcote" zipcode="110000" />
+            <district name="Northcote Central" zipcode="110000" />
+            <district name="Northcote Point" zipcode="110000" />
+            <district name="North Harbour" zipcode="110000" />
+            <district name="Northcross" zipcode="110000" />
+            <district name="Rosedale" zipcode="110000" />
+            <district name="Rothesay Bay" zipcode="110000" />
+            <district name="Oteha" zipcode="110000" />
+            <district name="Pinehill" zipcode="110000" />
+            <district name="Stanley Bay" zipcode="110000" />
+            <district name="Stanley Point" zipcode="110000" />
+            <district name="Sunnynook" zipcode="110000" />
+            <district name="Takapuna" zipcode="110000" />
+            <district name="Torbay" zipcode="110000" />
+            <district name="Totara Vale" zipcode="110000" />
+            <district name="Waiake" zipcode="110000" />
+            <district name="Wairau Valley" zipcode="110000" />
+            <district name="Westlake" zipcode="110000" />
+            <district name="Windsor Park" zipcode="110000" />
+            <district name="Unsworth Heights" zipcode="110000" />
+        </city>
+        <city name="Manukau City">
+            <district name="Airport Oaks" zipcode="110000" />
+            <district name="Beachlands" zipcode="110000" />
+            <district name="Brookby" zipcode="110000" />
+            <district name="Bucklands Beach" zipcode="110000" />
+            <district name="Chapel Downs" zipcode="110000" />
+            <district name="Clendon" zipcode="110000" />
+            <district name="Clevedon" zipcode="110000" />
+            <district name="Clover Park" zipcode="110000" />
+            <district name="Cockle Bay" zipcode="110000" />
+            <district name="Dannemora" zipcode="110000" />
+            <district name="East Tamaki" zipcode="110000" />
+            <district name="Eastern Beach" zipcode="110000" />
+            <district name="Farm Cove" zipcode="110000" />
+            <district name="Flamboro Heights" zipcode="110000" />
+            <district name="Flat Bush" zipcode="110000" />
+            <district name="Golflands" zipcode="110000" />
+            <district name="Goodwood Heights" zipcode="110000" />
+            <district name="Greenmeadows" zipcode="110000" />
+            <district name="Half Moon Bay" zipcode="110000" />
+            <district name="Heron Point" zipcode="110000" />
+            <district name="Highland Park" zipcode="110000" />
+            <district name="Hill Park" zipcode="110000" />
+            <district name="Howick" zipcode="110000" />
+            <district name="Mahia Park" zipcode="110000" />
+            <district name="Mangere" zipcode="110000" />
+            <district name="Mangere Bridge" zipcode="110000" />
+            <district name="Mangere East" zipcode="110000" />
+            <district name="Manukau" zipcode="110000" />
+            <district name="Manukau Heights" zipcode="110000" />
+            <district name="Manurewa" zipcode="110000" />
+            <district name="Maraetai" zipcode="110000" />
+            <district name="Meadowlands" zipcode="110000" />
+            <district name="Mellons Bay" zipcode="110000" />
+            <district name="Middlemore" zipcode="110000" />
+            <district name="Murphys Heights" zipcode="110000" />
+            <district name="North Park" zipcode="110000" />
+            <district name="Orere Point" zipcode="110000" />
+            <district name="Otara" zipcode="110000" />
+            <district name="Pakuranga" zipcode="110000" />
+            <district name="Papatoetoe" zipcode="110000" />
+            <district name="Porchester Park" zipcode="110000" />
+            <district name="Puhinui" zipcode="110000" />
+            <district name="Randwick Park" zipcode="110000" />
+            <district name="Redoubt Park" zipcode="110000" />
+            <district name="Richmond Park" zipcode="110000" />
+            <district name="Settlers Cove" zipcode="110000" />
+            <district name="Shelly Park" zipcode="110000" />
+            <district name="Silkwood Heights" zipcode="110000" />
+            <district name="Sommerville" zipcode="110000" />
+            <district name="The Gardens" zipcode="110000" />
+            <district name="Totara Heights" zipcode="110000" />
+            <district name="Tuscany Estate" zipcode="110000" />
+            <district name="Waimahia Landing" zipcode="110000" />
+            <district name="Wattle Cove" zipcode="110000" />
+            <district name="Wattle Downs" zipcode="110000" />
+            <district name="Weymouth" zipcode="110000" />
+            <district name="Whitford" zipcode="110000" />
+            <district name="Wiri" zipcode="110000" />
+        </city>
+        <city name="Papakura">
+            <district name="Alfriston" zipcode="110000" />
+            <district name="Ardmore" zipcode="110000" />
+            <district name="Conifer Grove" zipcode="110000" />
+            <district name="Longford Park" zipcode="110000" />
+            <district name="Manurewa East" zipcode="110000" />
+            <district name="Pahurehure" zipcode="110000" />
+            <district name="Papakura" zipcode="110000" />
+            <district name="Opaheke" zipcode="110000" />
+            <district name="Red Hill" zipcode="110000" />
+            <district name="Rosehill" zipcode="110000" />
+            <district name="Takanini" zipcode="110000" />
+        </city>
+        <city name="West Auckland">
+            <district name="Glen Eden" zipcode="110000" />
+            <district name="Glendene" zipcode="110000" />
+            <district name="Green Bay" zipcode="110000" />
+            <district name="Henderson" zipcode="110000" />
+            <district name="Hobsonville" zipcode="110000" />
+            <district name="Kelston" zipcode="110000" />
+            <district name="Konini" zipcode="110000" />
+            <district name="Laingholm" zipcode="110000" />
+            <district name="Massey" zipcode="110000" />
+            <district name="New Lynn" zipcode="110000" />
+            <district name="Oratia" zipcode="110000" />
+            <district name="Piha" zipcode="110000" />
+            <district name="Ranui" zipcode="110000" />
+            <district name="Sunnyvale" zipcode="110000" />
+            <district name="Swanson" zipcode="110000" />
+            <district name="Te Atatu" zipcode="110000" />
+            <district name="Titirangi" zipcode="110000" />
+            <district name="Waiatarua" zipcode="110000" />
+            <district name="Waitakere" zipcode="110000" />
+            <district name="Western Heights" zipcode="110000" />
+            <district name="West Harbour" zipcode="110000" />
+            <district name="Whenuapai" zipcode="110000" />
+        </city>
+        <city name="Rodney">
+            <district name="Gulf Harbour" zipcode="110000" />
+            <district name="Manly" zipcode="110000" />
+            <district name="Orewa" zipcode="110000" />
+            <district name="Red Beach" zipcode="110000" />
+            <district name="Sandspit" zipcode="110000" />
+            <district name="Silverdale" zipcode="110000" />
+            <district name="Stanmore Bay" zipcode="110000" />
+            <district name="Waimauku" zipcode="110000" />
+            <district name="Waiwera" zipcode="110000" />
+            <district name="Warkworth" zipcode="110000" />
+            <district name="Whangaparaoa" zipcode="110000" />
+            <district name="Wellsford" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Wellington">
+        <city name="Wellington City">
+            <district name="Aro Valley" zipcode="110000" />
+            <district name="Berhampore, New Zealand" zipcode="110105" />
+            <district name="Breaker Bay" zipcode="110105" />
+            <district name="Brooklyn, New Zealand" zipcode="110105" />
+            <district name="Churton Park" zipcode="110105" />
+            <district name="Crofton Downs" zipcode="110105" />
+            <district name="Glenside, New Zealand" zipcode="110105" />
+            <district name="Grenada North" zipcode="110105" />
+            <district name="Happy Valley, Wellington" zipcode="110105" />
+            <district name="Hataitai" zipcode="110105" />
+            <district name="Horokiwi" zipcode="110105" />
+            <district name="Houghton Bay" zipcode="110105" />
+            <district name="Island Bay, New Zealand" zipcode="110105" />
+            <district name="Johnsonville, New Zealand" zipcode="110105" />
+            <district name="Kaiwharawhara" zipcode="110105" />
+            <district name="Karaka Bays" zipcode="110105" />
+            <district name="Karori" zipcode="110105" />
+            <district name="Kelburn, New Zealand" zipcode="110105" />
+            <district name="Khandallah" zipcode="110105" />
+            <district name="Kilbirnie, New Zealand" zipcode="110105" />
+            <district name="Linden, New Zealand" zipcode="110105" />
+            <district name="Lyall Bay" zipcode="110105" />
+            <district name="Makara, New Zealand" zipcode="110105" />
+            <district name="Miramar, New Zealand" zipcode="110105" />
+            <district name="Mornington, Wellington" zipcode="110105" />
+            <district name="Mount Cook, Wellington" zipcode="110105" />
+            <district name="Mount Victoria, Wellington" zipcode="110105" />
+            <district name="Newlands, New Zealand" zipcode="110105" />
+            <district name="Newtown, New Zealand" zipcode="110105" />
+            <district name="Ngaio, New Zealand" zipcode="110105" />
+            <district name="Ngauranga" zipcode="110105" />
+            <district name="Northland, Wellington" zipcode="110105" />
+            <district name="Ohariu, New Zealand" zipcode="110105" />
+            <district name="Oriental Bay" zipcode="110105" />
+            <district name="Owhiro Bay" zipcode="110105" />
+            <district name="Paparangi" zipcode="110105" />
+            <district name="Redwood, Wellington" zipcode="110105" />
+            <district name="Rongotai" zipcode="110105" />
+            <district name="Roseneath, Wellington" zipcode="110105" />
+            <district name="Seatoun" zipcode="110105" />
+            <district name="Shelly Bay" zipcode="110105" />
+            <district name="Strathmore Park" zipcode="110105" />
+            <district name="Tawa, New Zealand" zipcode="110105" />
+            <district name="Te Aro" zipcode="110105" />
+            <district name="Thorndon, New Zealand" zipcode="110105" />
+            <district name="Vogeltown, Wellington" zipcode="110105" />
+            <district name="Wadestown, New Zealand" zipcode="110105" />
+            <district name="Wellington Central, Wellington" zipcode="110105" />
+            <district name="Wilton, New Zealand" zipcode="110105" />
+            <district name="Worser Bay" zipcode="110105" />
+        </city>
+        <city name="Lower Hutt">
+            <district name="Alicetown" zipcode="110101" />
+            <district name="Arakura" zipcode="110101" />
+            <district name="Ava, New Zealand" zipcode="110101" />
+            <district name="Avalon, New Zealand" zipcode="110101" />
+            <district name="Belmont, Wellington" zipcode="110101" />
+            <district name="Boulcott" zipcode="110101" />
+            <district name="Days Bay" zipcode="110101" />
+            <district name="Eastbourne, New Zealand" zipcode="110101" />
+            <district name="Epuni" zipcode="110101" />
+            <district name="Fairfield, Wellington" zipcode="110101" />
+            <district name="Glendale, New Zealand" zipcode="110101" />
+            <district name="Gracefield, New Zealand" zipcode="110101" />
+            <district name="Harbour View, New Zealand" zipcode="110101" />
+            <district name="Haywards" zipcode="110101" />
+            <district name="Homedale, New Zealand" zipcode="110101" />
+            <district name="Kelson, New Zealand" zipcode="110101" />
+            <district name="Korokoro, New Zealand" zipcode="110101" />
+            <district name="Manor Park, New Zealand" zipcode="110101" />
+            <district name="Maungaraki" zipcode="110101" />
+            <district name="Melling, New Zealand" zipcode="110101" />
+            <district name="Moera" zipcode="110101" />
+            <district name="Naenae" zipcode="110101" />
+            <district name="Normandale, New Zealand" zipcode="110101" />
+            <district name="Parkway, New Zealand" zipcode="110101" />
+            <district name="Petone" zipcode="110101" />
+            <district name="Pomare" zipcode="110101" />
+            <district name="Seaview, Wellington" zipcode="110101" />
+            <district name="Stokes Valley" zipcode="110101" />
+            <district name="Tait, New Zealand" zipcode="110101" />
+            <district name="Tirohanga" zipcode="110101" />
+            <district name="Wainuiomata" zipcode="110101" />
+            <district name="Waiwhet" zipcode="110101" />
+            <district name="Waterloo, New Zealand" zipcode="110101" />
+            <district name="Wingate, New Zealand" zipcode="110101" />
+            <district name="Woburn, New Zealand" zipcode="110101" />
+        </city>
+        <city name="Porirua">
+            <district name="Aotea, New Zealand" zipcode="110101" />
+            <district name="Ascot Park, New Zealand" zipcode="110101" />
+            <district name="Camborne, New Zealand" zipcode="110101" />
+            <district name="Cannons Creek, New Zealand" zipcode="110101" />
+            <district name="Hongoeka" zipcode="110101" />
+            <district name="Judgeford" zipcode="110101" />
+            <district name="Karehana Bay" zipcode="110101" />
+            <district name="Kenepuru" zipcode="110101" />
+            <district name="Mana, New Zealand" zipcode="110101" />
+            <district name="Moonshine Valley, New Zealand" zipcode="110101" />
+            <district name="Onepoto, Wellington" zipcode="110101" />
+            <district name="Papakowhai" zipcode="110101" />
+            <district name="Paremata" zipcode="110101" />
+            <district name="Pauatahanui" zipcode="110101" />
+            <district name="Plimmerton" zipcode="110101" />
+            <district name="Pukerua Bay" zipcode="110101" />
+            <district name="Takapuwahia" zipcode="110101" />
+            <district name="Titahi Bay" zipcode="110101" />
+            <district name="Waitangirua" zipcode="110101" />
+            <district name="Whitby, New Zealand" zipcode="110101" />
+        </city>
+        <city name="Upper Hutt">
+            <district name="Birchville" zipcode="110101" />
+            <district name="Brown Owl, New Zealand" zipcode="110105" />
+            <district name="Clouston Park" zipcode="110101" />
+            <district name="Ebdentown" zipcode="110105" />
+            <district name="Elderslea" zipcode="110101" />
+            <district name="Emerald Hill, New Zealand" zipcode="110105" />
+            <district name="Heretaunga, Wellington" zipcode="110101" />
+            <district name="Kingsley Heights" zipcode="110105" />
+            <district name="Mangaroa" zipcode="110101" />
+            <district name="Maoribank" zipcode="110105" />
+            <district name="Maymorn" zipcode="110101" />
+            <district name="Moonshine, New Zealand" zipcode="110105" />
+            <district name="Parkdale, New Zealand" zipcode="110101" />
+            <district name="Pinehaven" zipcode="110105" />
+            <district name="Riverstone Terraces" zipcode="110101" />
+            <district name="Silverstream" zipcode="110105" />
+            <district name="Te Marua" zipcode="110101" />
+            <district name="Timberlea, New Zealand" zipcode="110105" />
+            <district name="Totara Park" zipcode="110101" />
+            <district name="Trentham, New Zealand" zipcode="110105" />
+            <district name="Upper Hutt central business district" zipcode="110101" />
+            <district name="Wallaceville" zipcode="110105" />
+            <district name="Whitemans Valley" zipcode="110101" />
+        </city>
+    </province>
+    <province name="Christchurch">
+        <city name="Christchurch">
+            <district name="Addington, New Zealand" zipcode="110101" />
+            <district name="Aidanfield" zipcode="110105" />
+            <district name="Aranui" zipcode="110101" />
+            <district name="Avondale, Canterbury" zipcode="110105" />
+            <district name="Avonhead" zipcode="110101" />
+            <district name="Avonside" zipcode="110105" />
+            <district name="Barrington, New Zealand" zipcode="110101" />
+            <district name="Beckenham, New Zealand" zipcode="110105" />
+            <district name="Belfast, New Zealand" zipcode="110101" />
+            <district name="Bexley, New Zealand" zipcode="110105" />
+            <district name="Bishopdale, Christchurch" zipcode="110101" />
+            <district name="Bottle Lake, New Zealand" zipcode="110105" />
+            <district name="Brooklands, Canterbury" zipcode="110101" />
+            <district name="Bryndwr" zipcode="110105" />
+            <district name="Burnside, Canterbury" zipcode="110101" />
+            <district name="Burwood, New Zealand" zipcode="110105" />
+            <district name="Cashmere, New Zealand" zipcode="110101" />
+            <district name="Clifton, Canterbury" zipcode="110105" />
+            <district name="Cracroft, New Zealand" zipcode="110101" />
+            <district name="Dallington, New Zealand" zipcode="110105" />
+            <district name="Diamond Harbour, New Zealand" zipcode="110101" />
+            <district name="Duvauchelle" zipcode="110105" />
+            <district name="Edgeware" zipcode="110101" />
+            <district name="Fendalton" zipcode="110105" />
+            <district name="Ferrymead" zipcode="110101" />
+            <district name="Halswell" zipcode="110105" />
+            <district name="Harewood, New Zealand" zipcode="110101" />
+            <district name="Heathcote Valley" zipcode="110105" />
+            <district name="Hei Hei" zipcode="110101" />
+            <district name="Hillsborough, Canterbury" zipcode="110105" />
+            <district name="Hoon Hay" zipcode="110101" />
+            <district name="Hornby, New Zealand" zipcode="110105" />
+            <district name="Huntsbury" zipcode="110101" />
+            <district name="Ilam, New Zealand" zipcode="110105" />
+            <district name="Kennedys Bush" zipcode="110105" />
+            <district name="Linwood, New Zealand" zipcode="110105" />
+            <district name="Mairehau" zipcode="110105" />
+            <district name="Merivale" zipcode="110105" />
+            <district name="Moncks Bay" zipcode="110105" />
+            <district name="Mount Pleasant, New Zealand" zipcode="110105" />
+            <district name="Murray Aynsley Hill" zipcode="110105" />
+            <district name="New Brighton, New Zealand" zipcode="110105" />
+            <district name="Opawa" zipcode="110105" />
+            <district name="Papanui" zipcode="110105" />
+            <district name="Parklands, New Zealand" zipcode="110105" />
+            <district name="Phillipstown, New Zealand" zipcode="110105" />
+            <district name="Redcliffs" zipcode="110105" />
+            <district name="Redwood, Canterbury" zipcode="110105" />
+            <district name="Riccarton, New Zealand" zipcode="110105" />
+            <district name="Richmond Hill, New Zealand" zipcode="110105" />
+            <district name="Richmond, Canterbury" zipcode="110105" />
+            <district name="St Albans, New Zealand" zipcode="110105" />
+            <district name="St Martins, New Zealand" zipcode="110105" />
+            <district name="Scarborough, New Zealand" zipcode="110105" />
+            <district name="Shirley, New Zealand" zipcode="110105" />
+            <district name="Sockburn, New Zealand" zipcode="110105" />
+            <district name="Somerfield, New Zealand" zipcode="110105" />
+            <district name="Southshore, New Zealand" zipcode="110105" />
+            <district name="Spencerville, New Zealand" zipcode="110105" />
+            <district name="Spreydon" zipcode="110105" />
+            <district name="St Andrews Hill" zipcode="110105" />
+            <district name="Strowan" zipcode="110105" />
+            <district name="Sumner, New Zealand" zipcode="110105" />
+            <district name="Sydenham, New Zealand" zipcode="110105" />
+            <district name="Upper Riccarton" zipcode="110105" />
+            <district name="Waimairi Beach" zipcode="110105" />
+            <district name="Wainoni, Canterbury" zipcode="110105" />
+            <district name="Waltham, New Zealand" zipcode="110105" />
+            <district name="Westmorland, New Zealand" zipcode="110105" />
+            <district name="Wigram" zipcode="110105" />
+            <district name="Woolston, New Zealand" zipcode="110105" />
+        </city>
+    </province>
+    <province name="Dunedin">
+        <city name="Dunedin">
+            <district name="Andersons Bay" zipcode="110105" />
+            <district name="Brighton, New Zealand" zipcode="110105" />
+            <district name="Broad Bay, New Zealand" zipcode="110105" />
+            <district name="Brockville, New Zealand" zipcode="110105" />
+            <district name="Burnside, Otago" zipcode="110105" />
+            <district name="Calton Hill, New Zealand" zipcode="110105" />
+            <district name="Caversham, New Zealand" zipcode="110105" />
+            <district name="Challis, New Zealand" zipcode="110105" />
+            <district name="City Rise" zipcode="110105" />
+            <district name="Company Bay" zipcode="110105" />
+            <district name="Corstorphine, New Zealand" zipcode="110105" />
+            <district name="Dunedin North" zipcode="110105" />
+            <district name="Fairfield, Otago" zipcode="110105" />
+            <district name="Green Island, New Zealand" zipcode="110105" />
+            <district name="Halfway Bush" zipcode="110105" />
+            <district name="Harington Point" zipcode="110105" />
+            <district name="Kaikorai Valley" zipcode="110105" />
+            <district name="Kensington, New Zealand" zipcode="110105" />
+            <district name="Leith Valley" zipcode="110105" />
+            <district name="Macandrew Bay" zipcode="110105" />
+            <district name="Maori Hill" zipcode="110105" />
+            <district name="Maryhill, New Zealand" zipcode="110105" />
+            <district name="Mornington, Otago" zipcode="110105" />
+            <district name="Mosgiel" zipcode="110105" />
+            <district name="Musselburgh, New Zealand" zipcode="110105" />
+            <district name="North East Valley" zipcode="110105" />
+            <district name="Ocean Grove, New Zealand" zipcode="110105" />
+            <district name="Opoho" zipcode="110105" />
+            <district name="Pine Hill, New Zealand" zipcode="110105" />
+            <district name="Port Chalmers" zipcode="110105" />
+            <district name="Portobello, New Zealand" zipcode="110105" />
+            <district name="Pukehiki" zipcode="110105" />
+            <district name="Ravensbourne, New Zealand" zipcode="110105" />
+            <district name="Roseneath, Otago" zipcode="110105" />
+            <district name="Roslyn, Otago" zipcode="110105" />
+            <district name="St Clair, New Zealand" zipcode="110105" />
+            <district name="St Kilda, New Zealand" zipcode="110105" />
+            <district name="St Leonards, Otago" zipcode="110105" />
+            <district name="Sawyers Bay" zipcode="110105" />
+            <district name="Shiel Hill" zipcode="110105" />
+            <district name="South Dunedin" zipcode="110105" />
+            <district name="Wakari" zipcode="110105" />
+            <district name="Waldronville" zipcode="110105" />
+            <district name="Waverley, Otago" zipcode="110105" />
+            <district name="Wingatui" zipcode="110105" />
+        </city>
+    </province>
+    <province name="Hamilton">
+        <city name="Hamilton">
+            <district name="Ashmore, New Zealand" zipcode="110000" />
+            <district name="Beerescourt" zipcode="110105" />
+            <district name="Callum Brae" zipcode="110105" />
+            <district name="Chartwell, Waikato" zipcode="110105" />
+            <district name="Chedworth Park" zipcode="110105" />
+            <district name="Claudelands" zipcode="110105" />
+            <district name="Crawshaw, New Zealand" zipcode="110105" />
+            <district name="Deanwell" zipcode="110105" />
+            <district name="Dinsdale, New Zealand" zipcode="110105" />
+            <district name="Enderley" zipcode="110105" />
+            <district name="Fairfield, Waikato" zipcode="110105" />
+            <district name="Fairview Downs" zipcode="110105" />
+            <district name="Fitzroy, Waikato" zipcode="110105" />
+            <district name="Flagstaff, Waikato" zipcode="110105" />
+            <district name="Forest Lake, New Zealand" zipcode="110105" />
+            <district name="Frankton, Waikato" zipcode="110105" />
+            <district name="Glenview, New Zealand" zipcode="110105" />
+            <district name="Grandview Heights, New Zealand" zipcode="110105" />
+            <district name="Hamilton Central" zipcode="110105" />
+            <district name="Hamilton East, New Zealand" zipcode="110105" />
+            <district name="Hamilton North, New Zealand" zipcode="110105" />
+            <district name="Hamilton West, New Zealand" zipcode="110105" />
+            <district name="Harrowfield" zipcode="110105" />
+            <district name="Hillcrest, Waikato" zipcode="110105" />
+            <district name="Huntington, New Zealand" zipcode="110105" />
+            <district name="Livingstone, Waikato" zipcode="110105" />
+            <district name="Maeroa" zipcode="110105" />
+            <district name="Magellan Rise" zipcode="110105" />
+            <district name="Melville, New Zealand" zipcode="110105" />
+            <district name="Nawton, New Zealand" zipcode="110105" />
+            <district name="Naylor, New Zealand" zipcode="110105" />
+            <district name="Peacocke, New Zealand" zipcode="110105" />
+            <district name="Pukete" zipcode="110105" />
+            <district name="Queenwood" zipcode="110105" />
+            <district name="Riverlea, New Zealand" zipcode="110105" />
+            <district name="Rotokauri" zipcode="110105" />
+            <district name="Rototuna" zipcode="110105" />
+            <district name="Ruakura" zipcode="110105" />
+            <district name="Silverdale, Waikato" zipcode="110105" />
+            <district name="Somerset Heights" zipcode="110105" />
+            <district name="St Andrews, Waikato" zipcode="110105" />
+            <district name="St James Park, New Zealand" zipcode="110105" />
+            <district name="St Petersburg, New Zealand" zipcode="110105" />
+            <district name="Stonebridge, New Zealand" zipcode="110105" />
+            <district name="Te Kowhai" zipcode="110105" />
+            <district name="Te Rapa" zipcode="110105" />
+            <district name="Temple View" zipcode="110105" />
+            <district name="Thornton, Waikato" zipcode="110105" />
+            <district name="Western Heights, Waikato" zipcode="110105" />
+            <district name="Whitiora" zipcode="110105" />
+        </city>
+    </province>
+    <province name="Blenheim">
+        <city name="Blenheim">
+            <district name="Mayfield, Marlborough" zipcode="110000" />
+            <district name="Redwoodtown" zipcode="110000" />
+            <district name="Springlands" zipcode="110000" />
+            <district name="Witherlea" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Gisborne">
+        <city name="Gisborne">
+            <district name="Kaiti, New Zealand" zipcode="110000" />
+            <district name="Makaraka, New Zealand" zipcode="110000" />
+            <district name="Mangapapa" zipcode="110000" />
+            <district name="Tamarau" zipcode="110000" />
+            <district name="Te Hapara" zipcode="110000" />
+            <district name="Victoria, New Zealand" zipcode="110000" />
+            <district name="Whataupoko" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Hastings">
+        <city name="Hastings">
+            <district name="Havelock North" zipcode="110000" />
+            <district name="Mahora, New Zealand" zipcode="110000" />
+            <district name="Raureka" zipcode="110000" />
+            <district name="Whakatu, Hawke's Bay" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Invercargill">
+        <city name="Invercargill">
+            <district name="Clifton, Southland" zipcode="110000" />
+            <district name="Heidelberg, New Zealand" zipcode="110000" />
+            <district name="Waikiwi" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Napier">
+        <city name="Napier">
+            <district name="Awatoto" zipcode="110000" />
+            <district name="Bay View, New Zealand" zipcode="110000" />
+            <district name="Maraenui" zipcode="110000" />
+            <district name="Onekawa" zipcode="110000" />
+            <district name="Taradale, New Zealand" zipcode="110000" />
+            <district name="Westshore, New Zealand" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Nelson">
+        <city name="Nelson">
+            <district name="Annesbrook" zipcode="110000" />
+            <district name="Atawhai" zipcode="110000" />
+            <district name="Beachville" zipcode="110000" />
+            <district name="Bishopdale, Nelson" zipcode="110000" />
+            <district name="Britannia Heights, New Zealand" zipcode="110000" />
+            <district name="The Brook, Nelson" zipcode="110000" />
+            <district name="Brooklands, Nelson" zipcode="110000" />
+            <district name="Enner Glynn" zipcode="110000" />
+            <district name="Greenmeadows Park" zipcode="110000" />
+            <district name="Maitai, New Zealand" zipcode="110000" />
+            <district name="Maitlands" zipcode="110000" />
+            <district name="Marybank, New Zealand" zipcode="110000" />
+            <district name="Moana, Nelson" zipcode="110000" />
+            <district name="Monaco, New Zealand" zipcode="110000" />
+            <district name="Nayland, New Zealand" zipcode="110000" />
+            <district name="Nelson East" zipcode="110000" />
+            <district name="Nelson South" zipcode="110000" />
+            <district name="Port Nelson, New Zealand" zipcode="110000" />
+            <district name="Saxton, New Zealand" zipcode="110000" />
+            <district name="Stepneyville" zipcode="110000" />
+            <district name="Stoke, New Zealand" zipcode="110000" />
+            <district name="Tahunanui" zipcode="110000" />
+            <district name="Tasman Heights" zipcode="110000" />
+            <district name="Toi Toi" zipcode="110000" />
+            <district name="Wakapuaka" zipcode="110000" />
+            <district name="Wakatu" zipcode="110000" />
+            <district name="Washington Valley" zipcode="110000" />
+            <district name="The Wood, New Zealand" zipcode="110000" />
+        </city>
+    </province>
+    <province name="New Plymouth">
+        <city name="New Plymouth">
+            <district name="Brooklands, Taranaki" zipcode="110000" />
+            <district name="East End, New Zealand" zipcode="110000" />
+            <district name="Fitzroy, Taranaki" zipcode="110000" />
+            <district name="Frankleigh Park" zipcode="110000" />
+            <district name="Hurdon" zipcode="110000" />
+            <district name="Lynmouth, New Zealand" zipcode="110000" />
+            <district name="Mangorei" zipcode="110000" />
+            <district name="Marfell" zipcode="110000" />
+            <district name="Merrilands" zipcode="110000" />
+            <district name="Moturoa" zipcode="110000" />
+            <district name="Spotswood, New Zealand" zipcode="110000" />
+            <district name="Vogeltown, Taranaki" zipcode="110000" />
+            <district name="Welbourn, New Zealand" zipcode="110000" />
+            <district name="Westown" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Palmerston North">
+        <city name="Palmerston North">
+            <district name="Aokautere" zipcode="110000" />
+            <district name="Ashhurst" zipcode="110000" />
+            <district name="Awapuni, Manawatu-Wanganui" zipcode="110000" />
+            <district name="Bunnythorpe" zipcode="110000" />
+            <district name="Cloverlea" zipcode="110000" />
+            <district name="Fitzherbert" zipcode="110000" />
+            <district name="Highbury, Manawatu-Wanganui" zipcode="110000" />
+            <district name="Hokowhitu" zipcode="110000" />
+            <district name="Kelvin Grove, Manawatu-Wanganui" zipcode="110000" />
+            <district name="Linton, New Zealand" zipcode="110000" />
+            <district name="Longburn" zipcode="110000" />
+            <district name="Milson, New Zealand" zipcode="110000" />
+            <district name="Palmerston North Central" zipcode="110000" />
+            <district name="Palmerston North Hospital Area" zipcode="110000" />
+            <district name="Papaioea" zipcode="110000" />
+            <district name="Roslyn, Manawatu-Wanganui" zipcode="110000" />
+            <district name="Takaro" zipcode="110000" />
+            <district name="Terrace End" zipcode="110000" />
+            <district name="Turitea" zipcode="110000" />
+            <district name="West End, Manawatu-Wanganui" zipcode="110000" />
+            <district name="Westbrook, New Zealand" zipcode="110000" />
+            <district name="Whakarongo" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Queenstown">
+        <city name="Queenstown">
+            <district name="Arthurs Point" zipcode="110000" />
+            <district name="Closeburn, New Zealand" zipcode="110000" />
+            <district name="Fernhill, Queenstown" zipcode="110000" />
+            <district name="Frankton, Otago" zipcode="110000" />
+            <district name="Kelvin Heights" zipcode="110000" />
+            <district name="Lake Hayes Estate" zipcode="110000" />
+            <district name="Quail Rise" zipcode="110000" />
+            <district name="Shotover district" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Tauranga">
+        <city name="Tauranga">
+            <district name="Bethlehem, New Zealand" zipcode="110000" />
+            <district name="Greerton" zipcode="110000" />
+            <district name="Otumoetai" zipcode="110000" />
+            <district name="Papamoa" zipcode="110000" />
+            <district name="Pyes Pa" zipcode="110000" />
+            <district name="Tauranga South" zipcode="110000" />
+            <district name="Welcome Bay" zipcode="110000" />
+        </city>
+    </province>
+    <province name="Whangarei">
+        <city name="Whangarei">
+            <district name="Horahora, Whangarei" zipcode="110000" />
+            <district name="Kamo, New Zealand" zipcode="110000" />
+            <district name="Maunu, New Zealand" zipcode="110000" />
+            <district name="Morningside, Northland" zipcode="110000" />
+            <district name="Onerahi" zipcode="110000" />
+            <district name="Otangarei" zipcode="110000" />
+            <district name="Raumanga" zipcode="110000" />
+            <district name="Springs Flat, Whangarei" zipcode="110000" />
+            <district name="Tikipunga" zipcode="110000" />
+            <district name="Whau Valley" zipcode="110000" />
+        </city>
+    </province>
+</root>

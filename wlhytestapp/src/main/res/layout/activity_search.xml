@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/head"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_tab_bg"
+            android:gravity="center_vertical"
+            android:paddingRight="20dip"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/left_img"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:src="@drawable/back" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入客户姓名查询"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:imeOptions="actionSearch"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_tab_bg"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="20dp"
+                android:text="取消"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/title"
+            android:background="@drawable/nav_line" />
+
+    </RelativeLayout>
+</LinearLayout>
+

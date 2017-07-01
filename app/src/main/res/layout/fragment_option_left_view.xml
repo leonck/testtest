@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leftView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 左侧按钮 -->
+    <LinearLayout
+        android:id="@+id/leftBtn"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left|top"
+        android:orientation="vertical">
+
+        <!-- 菜单按钮 -->
+        <ImageView
+            android:id="@+id/hubsanFollowModeMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/hubsan_501_left_follow_menu_button_bg" />
+
+        <!-- 遥感模式 -->
+        <ImageView
+            android:id="@+id/hubsanLeftRocker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/hubsan_501_left_rocker_btn_bg" />
+
+        <!--一键返航-->
+        <ImageView
+            android:id="@+id/leftTurnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hubsan_left_turn_back_btn_bg" />
+
+        <ImageView
+            android:id="@+id/leftIsUnLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/hubsan_501_left_unlock" />
+    </LinearLayout>
+</LinearLayout>
+
+
+

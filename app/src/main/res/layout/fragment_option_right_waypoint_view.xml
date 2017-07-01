@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightWayPointView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="top|right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hubsanWaypointOtherMode"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+            android:enabled="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/hubsan_501_waypoint_title"
+            android:textColor="@color/grey_white_bc"
+            android:textSize="@dimen/text_twelve" />
+
+
+        <!-- 绘制航线 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/hubsanWayDraw"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/hubsanWayLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_draw_drag_btn_bg" />
+
+                <ImageView
+                    android:id="@+id/hubsanWayPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_draw_single_point_btn_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/hubsan_501_camera_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rightDrawRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:src="@drawable/hubsan_right_arrow" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_weight="0.9"
+                        android:layout_gravity="center"
+                        android:src="@drawable/hubsan_draw_drag_btn_bg" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:singleLine="true"
+                        android:text="@string/hubsan_501_waypoint_draw"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_twelve" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 刪除航线 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/hubsanDeletPiont"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:orientation="horizontal"
+               >
+
+                <ImageView
+                    android:id="@+id/hubsanDelLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_delete_drag_btn_bg" />
+
+                <ImageView
+                    android:id="@+id/hubsanDelPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_delete_single_point_btn_bg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/hubsan_501_camera_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rightDeleteRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:src="@drawable/hubsan_right_arrow" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:src="@drawable/hubsan_delete_drag_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:singleLine="true"
+                        android:text="@string/hubsan_501_waypoint_delete"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_twelve" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 兴趣点 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/hubsanGuidePiont"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:orientation="horizontal"
+               >
+
+                <ImageView
+                    android:id="@+id/hubsanFocus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_guide_focus_btn_bg" />
+
+                <ImageView
+                    android:id="@+id/hubsanGuide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hubsan_501_camera_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/hubsan_guide_back_btn_bg"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/hubsan_501_camera_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rightGuide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:src="@drawable/hubsan_right_arrow" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:src="@drawable/hubsan_guide_focus_btn_bg" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:singleLine="true"
+                        android:text="@string/hubsan_501_waypoint_poi"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_twelve" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 上传航点-->
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hubsan_501_camera_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rightUpload"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/hubsanUploadImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/hubsan_waypoint_submit_normal" />
+
+                    <TextView
+                        android:id="@+id/hubsanUploadText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hubsan_501_waypoint_submit"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_twelve" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 航点模式开关-->
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/hubsan_501_camera_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/leftWaypoint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hubsan_501_waypoint_mode_btn_bg"
+                android:gravity="center"
+                android:text="@string/hubsan_501_waypoint_drone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_twelve"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

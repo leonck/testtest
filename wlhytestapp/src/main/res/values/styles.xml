@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+     <!--   <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bTopTitleCenter">
+        <item name="android:textSize">@dimen/fontsize_18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ActionSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="wait_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="loginstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/button_login_nomal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mywhite</item>
+        <item name="android:textSize">@dimen/fontsize_18sp</item>
+    </style>
+    <style name="loginoutstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/button_rightred</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mywhite</item>
+        <item name="android:textSize">@dimen/fontsize_18sp</item>
+    </style>
+    <style name="loginstyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/button_login</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mywhite</item>
+        <item name="android:textSize">@dimen/fontsize_18sp</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+
+
+        <style name="Transparent">
+            <item name="android:windowBackground">
+                @color/transparent_background
+            </item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowAnimationStyle">
+                @android:style/Animation.Translucent
+            </item>
+        </style>
+
+
+</resources>

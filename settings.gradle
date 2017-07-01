@@ -1,0 +1,1 @@
+include ':app', ':mapappdemo', ':mavlinklib', ':mavlinkdemo', ':mymapdemo', ':joystick', ':paperPlane', ':wlhytestapp'

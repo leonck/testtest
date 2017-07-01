@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hubsan_501_common_dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/hubsanCommonTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingTop="1dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_fourteen" />
+
+                    <TextView
+                        android:id="@+id/hubsanCommonContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"
+                        android:gravity="left|top"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingTop="1dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_twelve" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1.2" />
+                    <!-- 图标 -->
+                    <ImageView
+                        android:id="@+id/hubsanCommonImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <!-- 分割线 -->
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:src="#676b65" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/hubsanCommonCancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/hubsan_501_common_btn_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_fifteen" />
+            <!-- 分割线 -->
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:src="#676b65" />
+
+
+            <Button
+                android:id="@+id/hubsanCommonConfirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/hubsan_501_common_btn_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_fifteen" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

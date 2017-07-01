@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gestureColor">#65e2e2</color>
+    <color name="ungestureColor">#FF4081</color>
+    <!-- 主界设备已经连接状态背景 -->
+    <color name="hubasn_connection_status_true_color">#14c8c7</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="white1">#484646</color>
+    <!-- 灰白 -->
+    <color name="grey_white_bc">#bcbcbc</color>
+    <color name="black">#000</color>
+
+    <color name="mygrey">#16000000</color>
+
+    <!-- 设置全部透明度 -->
+    <color name="bg_transparent">#00000000</color>
+    <color name="transparent_10">#16000000</color>
+    <color name="transparent_20">#33000000</color>
+    <color name="transparent_30">#4C000000</color>
+    <color name="transparent_40">#66000000</color>
+    <color name="transparent_50">#7F000000</color>
+    <color name="transparent_60">#99000000</color>
+    <color name="transparent_70">#B2000000</color>
+    <color name="transparent_80">#CC000000</color>
+    <color name="transparent_90">#E5000000</color>
+    <color name="transparent_95">#F2000000</color>
+    <!-- 设置透明度为56%(9/16)左右 -->
+    <color name="transparent">#9000</color>
+    <!-- 80%透明 -->
+    <color name="transparent_33">#33000000</color>
+    <!-- 设置98%透明度 -->
+    <color name="white_transparent">#98FFFFFF</color>
+
+    <!-- 弹出对话框确定和取消按下状态颜色 -->
+    <color name="dialog_ok_cancel_pressed_bg">#bac2c0</color>
+    <!-- 弹出对话框确定和取消默认状态颜色 -->
+    <color name="dialog_ok_cancel_normal_bg">#d9e2e0</color>
+
+    <!-- 设置航点弹出框的数值颜色 -->
+    <color name="hubasn_point_item_dialog_num_text">#0fb4b1</color>
+
+</resources>

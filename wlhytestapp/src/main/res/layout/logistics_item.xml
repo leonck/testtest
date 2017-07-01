@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_20"
+    android:background="@color/beijing"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:padding="@dimen/space_15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="万里环运"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="物品名称 ： 奶粉  。华生"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="物品重量"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:padding="@dimen/space_5"
+        android:id="@+id/remove_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/space_15"
+        android:src="@drawable/remove" />
+
+
+</LinearLayout>

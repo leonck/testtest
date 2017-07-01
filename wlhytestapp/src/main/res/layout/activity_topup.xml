@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_15">
+
+        <Button
+            android:id="@+id/one_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_addcard_select"
+            android:text="100元"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/fontsize_16sp" />
+
+        <Button
+            android:id="@+id/two_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:layout_weight="1"
+            android:background="@drawable/button_addcard"
+            android:text="200元"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16sp" />
+
+        <Button
+            android:id="@+id/three_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_addcard"
+            android:text="500元"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_15"
+        android:paddingRight="@dimen/space_15">
+
+        <Button
+            android:id="@+id/four_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_addcard"
+            android:text="800元"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <Button
+            android:id="@+id/five_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:layout_weight="1"
+            android:background="@drawable/button_addcard"
+            android:text="1000元"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <Button
+            android:id="@+id/six_bt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="自定义"
+            android:textSize="@dimen/fontsize_14sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/space_20"
+        android:background="@color/beijing"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/space_20"
+        android:text="选择支付方式"
+        android:textSize="@dimen/fontsize_16sp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="@dimen/space_30"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:background="@drawable/button_login"
+        android:text="确认充值"
+        android:textColor="@color/mywhite" />
+
+</LinearLayout>

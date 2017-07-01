@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/right_show"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <!--  有头无头对话框   -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hubsanHeadLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/hubsan_501_title_model_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:id="@+id/hubsanHeadImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/hubsan_501_head_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="#efefef" />
+            <!-- 遥感的参数-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.6"
+                android:orientation="vertical"
+                android:paddingLeft="5dp">
+
+                <LinearLayout
+                    android:id="@+id/hubsanRockerLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/hubsanRockerThrottle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:minWidth="100px"
+                        android:paddingTop="2dp"
+                        android:text="T: 0%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/hubsan_rocker_title_text_size" />
+
+                    <TextView
+                        android:id="@+id/hubsanRockerRudder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:minWidth="100px"
+                        android:paddingTop="2dp"
+                        android:text="R: 0%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/hubsan_rocker_title_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hubsanRockerElevator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:minWidth="100px"
+                        android:paddingTop="2dp"
+                        android:text="E: 0%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/hubsan_rocker_title_text_size" />
+
+                    <TextView
+                        android:id="@+id/hubsanRockerAileron"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:minWidth="100px"
+                        android:paddingTop="2dp"
+                        android:text="A: 0%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/hubsan_rocker_title_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hubsanHeadRightTwo"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="3%" />
+
+        <LinearLayout
+            android:id="@+id/topLeftTools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/hubsan_501_title_model_bg"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            >
+
+            <ImageView
+                android:id="@+id/topFind"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@null"
+                android:src="@drawable/hubsan_find_btn_bg" />
+
+            <ImageView
+                android:id="@+id/mapModelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@null"
+                android:src="@drawable/hubsan_map_mode_btn_bg" />
+
+            <ImageView
+                android:id="@+id/topMapCalibration"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@null"
+                android:src="@drawable/hubsan_top_compass_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hubsanHeadRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="7%" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map clean"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            />
+    </LinearLayout>-->
+
+
+</LinearLayout>
+
+
+
