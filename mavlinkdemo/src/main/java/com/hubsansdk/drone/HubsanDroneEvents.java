@@ -2,6 +2,7 @@ package com.hubsansdk.drone;
 
 import com.hubsansdk.drone.HubsanDroneInterfaces.DroneEventsType;
 import com.hubsansdk.drone.HubsanDroneInterfaces.OnDroneListener;
+import com.hubsansdk.utils.LogX;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,14 +37,15 @@ public class HubsanDroneEvents extends HubsanDroneVariable {
 	}
 
 	public void notifyDroneEvent(DroneEventsType event) {
-		try {
+//		try {
 			if (droneListeners.size() > 0) {
 				for (OnDroneListener listener : droneListeners) {
 					listener.onDroneEvent(event, myDrone);
 				}
 			}
-		}catch (Exception e){
-			e.printStackTrace();
-		}
+//		}catch (Exception e){
+//			LogX.e(e.getMessage());
+//			e.printStackTrace();
+//		}
 	}
 }

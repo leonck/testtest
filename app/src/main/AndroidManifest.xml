@@ -51,7 +51,7 @@
         <service android:name="com.amap.api.location.APSService" />
 
         <activity
-            android:name=".activitis.MainActivity"
+            android:name=".activitis.Main2Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="sensorLandscape"
@@ -74,8 +74,13 @@
         <!-- 设备认证界面 -->
         <activity android:name=".TestShow.TestShowActivity" />
         <activity
-            android:name=".activitis.Main2Activity"
-            android:label="@string/title_activity_main2"></activity>
+            android:name=".activitis.MainActivity"
+            android:label="@string/title_activity_main2"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme"
+            ></activity>
     </application>
 
 </manifest>

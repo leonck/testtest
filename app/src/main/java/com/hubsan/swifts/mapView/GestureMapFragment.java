@@ -53,7 +53,7 @@ public class GestureMapFragment extends Fragment implements OnGestureListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.hubsan_fragment_gesture_map, container, false);
-        ButterKnife.bind(this, view);
+        unbinder = ButterKnife.bind(this, view);
         toleranceInPixels = scaleDpToPixels(1);
         overlay1.addOnGestureListener(this);
         initMapFragment();

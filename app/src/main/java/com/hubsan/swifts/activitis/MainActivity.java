@@ -276,9 +276,7 @@ public class MainActivity extends BasePermissionActivity implements HubsanDroneI
 
     public void certification() {
         startActivity(new Intent().setClass(this, EquipmentCertificationDialog.class));
-
     }
-//    private int cameraWidth, cameraHight, mapWidth, mapHight, screenWidth, screenHeight;
 
     /**
      * 获取窗口大小

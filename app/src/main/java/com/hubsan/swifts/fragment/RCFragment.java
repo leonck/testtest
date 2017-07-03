@@ -1,6 +1,5 @@
 package com.hubsan.swifts.fragment;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +11,6 @@ import com.hubsan.joystick.R;
 import com.hubsan.joystick.widgets.JoystickMovedListener;
 import com.hubsan.joystick.widgets.JoystickView;
 import com.hubsan.swifts.SwiftsApplication;
-import com.hubsan.swifts.activitis.MainContract;
 import com.hubsansdk.application.HubsanApplication;
 import com.hubsansdk.drone.HubsanDrone;
 import com.utils.Constants;
@@ -148,30 +146,29 @@ public class RCFragment extends Fragment{
     @Override
     public void onResume() {
         super.onResume();
-//        usOrJp = PreferenceUtils.getPrefBoolean(getActivity(), Constants.SETTING_REMOTE_US_JP, true);//美国手，日本手
-//        isStaticMode = PreferenceUtils.getPrefBoolean(getActivity(), Constants.SETTING_REMOTE_OPEN_CLOSE, false);
+        usOrJp = PreferenceUtils.getPrefBoolean(getActivity(), Constants.SETTING_REMOTE_US_JP, true);//美国手，日本手
+        isStaticMode = PreferenceUtils.getPrefBoolean(getActivity(), Constants.SETTING_REMOTE_OPEN_CLOSE, false);
     }
 
 
-//    @Override
-//    public void onStop() {
-//
-//        super.onDestroyView();
-//    }
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
         joystickL.recycleBitmap();
 //        drone.isUnLockStatus.setUnLockCloseWhile(false);
-//        drone.joystick.setRudder(0);
-//        drone.joystick.setAileron(0);
-//        drone.joystick.setThrottle(0);
-//        drone.joystick.setElevator(0);
-//        drone.joystick.setRudderRaw(0);
-//        drone.joystick.setAileronRaw(0);
-//        drone.joystick.setThrottleRaw(0);
-//        drone.joystick.setElevatorRaw(0);
+        drone.joystick.setRudder(0);
+        drone.joystick.setAileron(0);
+        drone.joystick.setThrottle(0);
+        drone.joystick.setElevator(0);
+        drone.joystick.setRudderRaw(0);
+        drone.joystick.setAileronRaw(0);
+        drone.joystick.setThrottleRaw(0);
+        drone.joystick.setElevatorRaw(0);
         System.gc();
     }
 

@@ -17,6 +17,8 @@
 package com.hubsan.swifts.activitis;
 
 import android.graphics.Point;
+import android.os.Message;
+import android.view.Surface;
 
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.model.LatLng;
@@ -34,6 +36,7 @@ public class MainContract {
         void updateMap(List<LatLng> newPath);
         void addMMarkerMap(double lat,double lon,int rotate,boolean status);
         void clearWaypointLine();
+        void receiveInstructions(Message msg);
     }
 
     public interface Presenter extends BasePresenter {
@@ -44,5 +47,6 @@ public class MainContract {
         void deleteAllWaypoint();
         void deleteWaypoint(MissionItem mItems);
         void addFocus(LatLng coord);
+        void playCamera(Surface surface);
     }
 }

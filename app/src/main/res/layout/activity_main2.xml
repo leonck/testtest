@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.hubsan.swifts.activitis.Main2Activity">
 
+    <Button
+        android:id="@+id/into"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="into"
+        android:onClick="into"
+        />
 </android.support.constraint.ConstraintLayout>
