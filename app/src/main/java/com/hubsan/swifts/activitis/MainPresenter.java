@@ -131,105 +131,69 @@ class MainPresenter implements MainContract.Presenter, HubsanDroneInterfaces.OnD
 //    }
 
     /**
-     * @describe  操控界面指令监听
      * @param event
      * @param drone
+     * @describe 操控界面指令监听
      */
     @Override
     public void onDroneEvent(HubsanDroneInterfaces.DroneEventsType event, HubsanDrone drone) {
         switch (event) {
-            case HUBSAN_BATTERY://电量
-                Message batteryMsg = new Message();
-                batteryMsg.what = 1;
-                view.receiveInstructions(batteryMsg);
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(batteryMsg);
-//                }
-                break;
-            case HUBSAN_BASE_VALUE://高度 距离
-                Message heightMsg = new Message();
-                heightMsg.what = 2;
-                view.receiveInstructions(heightMsg);
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(heightMsg);
-//                }
-                break;
-            case HUBSAN_AIR_ALTITUDE://飞机高度
-                Message airHightMsg = new Message();
-                airHightMsg.what = 3;
-                view.receiveInstructions(airHightMsg);
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(airHightMsg);
-//                }
-                break;
-            case HUBSAN_LAT_LON://飞机经纬度
-                Message lonMsg = new Message();
-                lonMsg.what = 4;
-                view.receiveInstructions(lonMsg);
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(lonMsg);
-//                }
-                break;
-            case HUBSAN_YES_FOLLOW_MODE: //开启跟随
-
-                break;
-            case HUBSAN_NO_FOLLOW_MODE: //关闭跟随
-
-                break;
-            case HUBSAN_AIL_MODE:// 飞机所有状态模式
-                Message airModeMsg = new Message();
-                airModeMsg.what = 122;
-                view.receiveInstructions(airModeMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(airModeMsg);
-//                }
-                break;
-            case HUBSAN_GPS_MANAGER://
-                Message localMsg = new Message();
-                localMsg.what = 123;
-                view.receiveInstructions(localMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(localMsg);
-//                }
-                break;
-            case HUBSAN_GPS_NUMBER://
-                Message gpsMsg = new Message();
-                gpsMsg.what = 124;
-                view.receiveInstructions(gpsMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(gpsMsg);
-//                }
-                break;
-            case HUBSAN_OPEN_FOLLOW_ME_FAILED: //开启跟随失败
-                Message followMsg = new Message();
-                followMsg.what = 126;
-                view.receiveInstructions(followMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(followMsg);
-//                }
-                break;
-            case HUBSAN_OPEN_SURROUND_FAILED: //开启环绕失败
-                Message arrowMsg = new Message();
-                arrowMsg.what = 127;
-                view.receiveInstructions(arrowMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(arrowMsg);
-//                }
-                break;
-            case HUBSAN_OPEN_WAYPOINT_FAILED: //开启航点失败
-                Message waypointMsg = new Message();
-                waypointMsg.what = 128;
-                view.receiveInstructions(waypointMsg);
-
-//                if (mMyHandler != null) {
-//                    mMyHandler.sendMessage(waypointMsg);
-//                }
-                break;
+//            case HUBSAN_BATTERY://电量
+//                Message batteryMsg = new Message();
+//                batteryMsg.what = 1;
+//                view.receiveInstructions(batteryMsg);
+//                break;
+//            case HUBSAN_BASE_VALUE://高度 距离
+//                Message heightMsg = new Message();
+//                heightMsg.what = 2;
+//                view.receiveInstructions(heightMsg);
+//                break;
+//            case HUBSAN_AIR_ALTITUDE://飞机高度
+//                Message airHightMsg = new Message();
+//                airHightMsg.what = 3;
+//                view.receiveInstructions(airHightMsg);
+//                break;
+//            case HUBSAN_LAT_LON://飞机经纬度
+//                Message lonMsg = new Message();
+//                lonMsg.what = 4;
+//                view.receiveInstructions(lonMsg);
+//                break;
+//            case HUBSAN_YES_FOLLOW_MODE: //开启跟随
+//
+//                break;
+//            case HUBSAN_NO_FOLLOW_MODE: //关闭跟随
+//
+//                break;
+//            case HUBSAN_AIL_MODE:// 飞机所有状态模式
+//                Message airModeMsg = new Message();
+//                airModeMsg.what = 122;
+//                view.receiveInstructions(airModeMsg);
+//                break;
+//            case HUBSAN_GPS_MANAGER://
+//                Message localMsg = new Message();
+//                localMsg.what = 123;
+//                view.receiveInstructions(localMsg);
+//                break;
+//            case HUBSAN_GPS_NUMBER://
+//                Message gpsMsg = new Message();
+//                gpsMsg.what = 124;
+//                view.receiveInstructions(gpsMsg);
+//                break;
+//            case HUBSAN_OPEN_FOLLOW_ME_FAILED: //开启跟随失败
+//                Message followMsg = new Message();
+//                followMsg.what = 126;
+//                view.receiveInstructions(followMsg);
+//                break;
+//            case HUBSAN_OPEN_SURROUND_FAILED: //开启环绕失败
+//                Message arrowMsg = new Message();
+//                arrowMsg.what = 127;
+//                view.receiveInstructions(arrowMsg);
+//                break;
+//            case HUBSAN_OPEN_WAYPOINT_FAILED: //开启航点失败
+//                Message waypointMsg = new Message();
+//                waypointMsg.what = 128;
+//                view.receiveInstructions(waypointMsg);
+//                break;
             case HUBSAN_JOYSTICK_VALUE://摇杆数据
                 Message rockMsg = new Message();
                 rockMsg.what = 129;

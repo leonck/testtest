@@ -257,7 +257,7 @@ public class OptionFragment extends Fragment {
                         cancelWaypointMode();
                         break;
                      case 129:
-                         setRockerData();
+//                         setRockerData();
                         break;
 
                 }

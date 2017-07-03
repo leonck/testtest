@@ -363,7 +363,9 @@ public class MainFragment extends Fragment implements MainContract.View, Gesture
 //                optionFragment.setAirConnectionStatus();
 //                break;
 //            case 129:
-                optionFragment.rockerInstructions(msg);
+        if (optionFragment!=null){
+            optionFragment.rockerInstructions(msg);
+        }
 //                optionFragment.setBattery();
 //                break;
 //        }
